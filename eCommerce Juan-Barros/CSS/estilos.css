@@ -1,0 +1,258 @@
+/* Se puede optimizar mucho mas usando clases de boostrap y sass*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 8rem;
+    background-image: linear-gradient(lightgreen, skyblue);
+    border-bottom: 3px silver solid;
+
+}
+.imgHeader img{
+    width: 10rem;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 1000;
+}
+
+header ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+header ul li{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 1000;
+}
+
+header ul li a:hover{
+    color: green;
+}
+
+aside{
+    display: flex;
+    justify-content: end;
+    position: sticky;
+    z-index: 1200;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 1000;
+    text-align: center;
+} 
+
+.visibilidad{
+    visibility: hidden;
+}
+
+
+.inputLogin form{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(orange, skyblue);
+    height: 15rem;
+    width: 20rem;
+    border-radius: 20px;
+    border-radius: 10px;
+
+}
+
+.inputLogin form input{
+    border-radius: 10px;
+    font-weight: 1000;
+    width: 10rem;
+    margin-left: 5rem;
+} 
+
+
+.btnEnter{
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    font-weight: 1000;
+    border: none;
+    text-decoration: none;
+}
+
+.btnEnter:hover{
+    color: black;
+}
+
+.btnReg{
+    text-decoration: none;
+}
+
+.btnReg:hover{
+    color: black;
+}
+
+.btnEliminarDatos {
+    color: black;
+    text-decoration: none;
+
+}
+
+article{
+    margin-top: -10rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 1000;
+}
+
+article h2{
+    font-weight: 1000;
+}
+
+.menuPrductos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.menuPrductos a{
+    text-decoration: none;
+    color: black;
+}
+
+#barraBusqueda{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#barraBusqueda h3{
+    font-weight: 1000;
+}
+
+#barraBusqueda input{
+    font-weight: 1000;
+    border-radius: 20px;
+    height: 1.5rem;
+    width: 20rem;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+    text-align: center
+}
+
+.card{
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.cartas{
+    display: flex;
+    justify-content: center;
+}
+
+
+thead{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    background-color: aquamarine;
+}
+
+.prodCarrito{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+tr{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+#vaciarCarro{ 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 1000;
+    text-decoration: none;
+    width: 20rem;
+    height: 3rem;
+    text-align: center;
+    margin: auto;
+    background-color: lightgreen;
+}
+
+#confirmarCompra{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 1000;
+    text-decoration: none;
+    width: 20rem;
+    height: 3rem;
+    text-align: center;
+    margin: auto; 
+    background-color: lightgreen;
+}
+
+.imgProducto{
+    scale: 2.2;
+    margin-bottom: 2rem;
+}
+
+.imgCarrito{
+    scale: 1.5;
+}
+
+#cantidadCarrito{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 1000;
+    font-size: 2rem;
+}
+
+.noti{
+    border-radius: 30px;
+    border: solid 5px silver;
+    background-image: url("../multimedia/fondo/floral-seamless-pattern-flower-background-floral-seamless-texture-with-flowers-flourish-tiled-white-spring-wallpaper-vector.webp");
+    background-size: cover;
+    color: black;
+    font-weight: 700;
+}
+
+.carritoTotal{
+    background-color: silver;
+}
+
+.imgProducto img{
+    width: 100px;
+    margin-top: 2rem;
+}
+
+.card-title{
+    margin-top: 2rem;
+}
+
+.imgCarrito img{
+    width: 50px;
+}
